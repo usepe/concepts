@@ -26,11 +26,21 @@ Always leave the code better than when you found it rule (a.k.a **boy-scout rule
 
 Perform minor refactoring on code that you are working on to find it better the next time you have to dive into it.
 
+#### <a href="#liskov-substitution-principle"></a>Liskov Substitution  Principle
+
+Is a design principle part of [SOLID](#solid). States that any implementation of a class should be able to be changed by another implementation of the same type. In other words if the unit of code has the same interface implemented you should be able to interchange it without worrying about implementation details.
+
 #### <a href="#long-term-refactoring"></a>Long-Term Refactoring
 
 Kind of a planned refactoring, but that uses the other approaches to break down with a long-term plan in place.
 
 The best of it is that let you pivot if needed, and learn from each gradual step.
+
+## O
+
+#### <a href="#open-closed-principle"></a> Open/Closed Principle
+
+Is a design principle part of [SOLID](#solid). States that all classes (or any single unit of code) should be open for extension but closed from modification. In other words, once accepted a contract with the outside, that contract should remain unchanged if a new feature/improvement is needed.
 
 ## P
 
@@ -43,3 +53,9 @@ It is a good advice to not do this kind of refactorings unless they cannot be av
 #### <a href="#preparatory-refactoring"></a> Preparatory Refactoring
 
 Refactoring that takes place to add a new feature when the existent code base is not a good fit.
+
+## S
+
+#### <a href="#single-responsibility-principle"></a> Single Responsibility Principle
+
+Is a design principle part of [SOLID](#solid). States that a class (or any single unit of code) should have only one responsibility and therefore only one reason to change.
