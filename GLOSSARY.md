@@ -18,6 +18,20 @@ Similar to [Litter-Pickup Refactoring](#litter-pickup-refactoring). Both require
 
 The longer you keep not paying atention to your design on your system, the longer it will take to make changes on it.
 
+#### <a href="#dependency-inversion-principle"></a>Dependency Inversion Principle
+
+Is a design principle part of [SOLID](#solid). States that one should make it code depend on abstractions and not implementations. With this you can ensure you can change the underlaying implementation meanwhile it behaves in the same way as the abstraction meant it should work.
+
+#### <a href="#domain-driven-design></a>Domain Driven Design
+
+.
+
+## I
+
+#### <a href="#interface-segregation-principle"></a>Interface Segregation Principle
+
+Is a design principle part of [SOLID](#solid). States that a client should only know the parts it needs to work. That  means that is better to have little and more specific interfaces instead of a larger one with information that may not be needed.
+
 ## L
 
 #### <a href="#litter-pickup-refactoring"></a>Litter-Pickup Refactoring
@@ -59,3 +73,22 @@ Refactoring that takes place to add a new feature when the existent code base is
 #### <a href="#single-responsibility-principle"></a> Single Responsibility Principle
 
 Is a design principle part of [SOLID](#solid). States that a class (or any single unit of code) should have only one responsibility and therefore only one reason to change.
+
+#### <a href="#solid"></a>SOLID
+
+Acronim coined by Robert C. Martin (a.k.a. Uncle Bob). Each of those letters represent a basic principle of object oriented programming and design. Those principles stand as guidelines to write systems that can be extended and maintained over time.
+
+
+## U
+
+#### <a href="#ubiquitous-language"></a> Ubiquitous Language
+
+A language structured around the domain model and used by all team members to connect all the activities of the team with the software, within a bounded context.
+
+
+See:
+- [Single Responsibility Principle](#single-responsibility-principle)
+- [Open/Closed Principle](#open-closed-principle)
+- [Liskov Substitution Principle](#liskov-substitution-principle)
+- [Interface Segregation Principle](#interface-segregation-principle)
+- [Dependency Inversion Principle](#dependency-inversion-principle)
